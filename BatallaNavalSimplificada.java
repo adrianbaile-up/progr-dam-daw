@@ -20,12 +20,6 @@ public class BatallaNavalSimplificada {
 		//1.Creación del tablero
 		
 	
-		
-		
-		
-		
-		
-		
 		String[][] tablero= {
 				
 				{"0","0","0","0","0"},
@@ -225,16 +219,6 @@ public class BatallaNavalSimplificada {
 		
 		
 		escaner.close();
-		
-		
-		
-		
-		
-		
-		
-	
- 
-		
 		
 	}
 	
