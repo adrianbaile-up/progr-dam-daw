@@ -18,13 +18,7 @@ public class BatallaNavalSimplificada {
 		
 		
 		//1.Creación del tablero
-		
-	
-		
-		
-		
-		
-		
+
 		
 		String[][] tablero= {
 				
@@ -232,11 +226,6 @@ public class BatallaNavalSimplificada {
 		
 		
 		
-		
-		
-		
-		
-	
  
 		
 		
