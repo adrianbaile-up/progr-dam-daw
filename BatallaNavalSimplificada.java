@@ -20,6 +20,12 @@ public class BatallaNavalSimplificada {
 		//1.Creación del tablero
 		
 	
+		
+		
+		
+		
+		
+		
 		String[][] tablero= {
 				
 				{"0","0","0","0","0"},
@@ -62,7 +68,8 @@ public class BatallaNavalSimplificada {
 		
 		for(int fila=0; fila<tablero.length;fila++) {
 			
-			System.out.printf("     |\t\t");
+			System.out.printf("  f%1d",fila);
+			System.out.printf(" |\t\t");
 			for(int columna=0;columna<tablero.length;columna++) {
 				
 			
@@ -113,7 +120,8 @@ public class BatallaNavalSimplificada {
 			
 			for(int fila=0; fila<tablero.length;fila++) {
 				
-				System.out.printf("     |\t\t");
+				System.out.printf("  f%1d",fila);
+				System.out.printf(" |\t\t");
 				
 				for(int columna=0;columna<tablero.length;columna++) {
 					
@@ -143,7 +151,8 @@ public class BatallaNavalSimplificada {
 			
 				for(int fila=0; fila<tablero.length;fila++) {
 				
-					System.out.printf("     |\t\t");
+					System.out.printf("  f%1d",fila);
+					System.out.printf(" |\t\t");
 					
 					for(int columna=0;columna<tablero.length;columna++) {
 					
@@ -186,7 +195,8 @@ public class BatallaNavalSimplificada {
 			
 			for(int fila=0; fila<tableroMaquina.length;fila++) {
 				
-				System.out.printf("     |\t\t");
+				System.out.printf("  f%1d",fila);
+				System.out.printf(" |\t\t");
 				
 				for(int columna=0;columna<tableroMaquina.length;columna++) {
 				
@@ -219,6 +229,16 @@ public class BatallaNavalSimplificada {
 		
 		
 		escaner.close();
+		
+		
+		
+		
+		
+		
+		
+	
+ 
+		
 		
 	}
 	
