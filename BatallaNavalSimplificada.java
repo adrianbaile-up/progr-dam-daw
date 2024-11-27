@@ -225,15 +225,7 @@ public class BatallaNavalSimplificada {
 		
 		escaner.close();
 		
-		
-		
-		
-		
-		
-		
 	
- 
-		
 		
 	}
 	
