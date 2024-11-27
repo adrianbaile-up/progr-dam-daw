@@ -18,7 +18,8 @@ public class BatallaNavalSimplificada {
 		
 		
 		//1.Creación del tablero
-
+		
+	
 		
 		String[][] tablero= {
 				
@@ -97,7 +98,7 @@ public class BatallaNavalSimplificada {
 			
 			max_intentos-=1;
 		
-		
+			if(coordenadaFila<5&&coordenadaColumna<5) {
 			if(tableroMaquina[coordenadaFila][coordenadaColumna].contains("1")){
 			
 				tocado=tocado+1;
@@ -164,7 +165,7 @@ public class BatallaNavalSimplificada {
 				
 				
 				
-		};
+		};}else {System.out.println("Estas coordenadas no son validas, pierdes un turno");}
 		
 		}while(tocado<3&&(max_intentos>0&&max_intentos<10));
 		
@@ -226,6 +227,11 @@ public class BatallaNavalSimplificada {
 		
 		
 		
+		
+		
+		
+		
+	
  
 		
 		
