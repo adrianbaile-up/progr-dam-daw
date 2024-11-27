@@ -98,8 +98,8 @@ public class BatallaNavalSimplificada {
 			
 			max_intentos-=1;
 		
-			if(coordenadaFila<5&&coordenadaColumna<5) {
-			if(tableroMaquina[coordenadaFila][coordenadaColumna].contains("1")){
+			if((coordenadaFila<5&&coordenadaFila>=0)&&(coordenadaColumna<5&&coordenadaColumna>=0)) {
+			if(tableroMaquina[coordenadaFila][coordenadaColumna].equals("1")){
 			
 				tocado=tocado+1;
 			
